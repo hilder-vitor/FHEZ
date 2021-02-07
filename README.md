@@ -5,9 +5,12 @@ Proof-of-concept implementation of the fast bootstrapping for fully homomorphic 
 The branch PKC21 corresponds to the code used to collect the running times and memory usage shown in this paper, thus, to garantee the reproducibility of the experiments, this branch should not be changed and all possible future modifications will be added to the master branch.
 
 The main classes of this project are:
-	* ScalarNandHE - Base scheme, the one that is bootstrapped. It can perform one NAND gate before bootstrapping.
-	* GAHE - Scheme used to bootstrap the base scheme.
-	* BootstrapperSingleNandHE - Implements the bootstrapping.
+
+* ScalarNandHE - Base scheme, the one that is bootstrapped. It can perform one NAND gate before bootstrapping.
+	
+* GAHE - Scheme used to bootstrap the base scheme.
+	
+* BootstrapperSingleNandHE - Implements the bootstrapping.
 
 Dependencies: install NTL (https://libntl.org/) and GMP with C++ support enabled (search for --enable-cxx in https://gmplib.org/manual/Build-Options).
 
